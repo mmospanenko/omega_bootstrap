@@ -17,7 +17,7 @@
 function omega_bootstrap_process(&$vars, $hook) {
   if (!empty($vars['elements']['#grid']) || !empty($vars['elements']['#data']['wrapper_css'])) {
     if (!empty($vars['elements']['#grid'])) {
-      foreach (array('prefix', 'suffix', 'push', 'pull') as $quality) {
+      foreach (array('prefix', 'push', 'pull') as $quality) {
         if (!empty($vars['elements']['#grid'][$quality])) {
           array_unshift($vars['attributes_array']['class'], 'offset' . $vars['elements']['#grid'][$quality]); # Добавляем класс offset* региону
         }
