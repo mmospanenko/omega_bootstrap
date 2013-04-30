@@ -1,2 +1,6 @@
 *Bootstrap subtheme*
-ReadMe will be there.
+Put it in your sites/themes folder.
+
+Create Omega Subtheme through gui wizard.
+
+To be continued... 
